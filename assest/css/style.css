@@ -18,6 +18,9 @@
     margin: 0px 150px;
 
 }
+.nav .no{
+  color: #00FFFF;
+}
 .nav .b{
   margin-top: 8px;
   margin-bottom: 5px;
@@ -33,7 +36,7 @@
     width: 100%;
     position: absolute;
     background-color: #000000;
-    opacity: 0.5;
+    opacity: 0.4;
   }
   .ContainerImg img {
     width: 100%;
@@ -74,6 +77,7 @@
     top: 15%;
     right: 15%;
   }
+  
   .Form .hl{
     
     color: #fff;
@@ -126,7 +130,7 @@
 }
 .menu div img{
   width: 400px;
-  height: 240px;
+  height: 250px;
 }
 .menu div p{
   margin-top: 5px;
@@ -157,3 +161,72 @@
   border-radius: 3px;
   margin-top: 25px;
  }
+
+ 
+
+  /* Working section start */
+
+  .working {
+    width: 100%;
+    height: auto;
+    display:flex;
+    padding: 0px 50px;
+    
+  }
+  .working img{
+    width: 741px;
+    height: 600px;
+  
+  }
+  .working .para{
+    padding: 150px 100px;
+    font-weight: bolder;
+    text-align: center;
+  }   
+    
+   
+  
+
+   /* Working section end */
+
+   
+   /* working1 section start */
+
+    .working1{
+      width: 100%;
+      height: auto;
+      display:flex;
+      padding: 0px 50px;
+      margin-top: -4px;
+
+    }
+
+    .working1 img{
+      width: 741px;
+      height: 600px;
+    
+    }
+    .working1 h2{
+
+    }
+    .working1 .para{
+      padding: 150px 100px;
+      font-weight: bold;
+    text-align: center;
+    } 
+
+   /* working1 section end */
+
+/* header section start */
+
+    .header{
+      width: 100%;
+      height: auto;
+      padding: 5px ;
+      text-align: center;
+      background-color: #012B7D;
+      color: #fff;
+      margin-top: 50px;
+    }
+
+/* header section end */
