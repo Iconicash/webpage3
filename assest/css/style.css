@@ -130,7 +130,7 @@
     width: 30%;
    
 }
-.menu div p1{
+.menu div .p1{
   font-size: 40px;
   margin-bottom: 7px;
 }
@@ -640,4 +640,334 @@ textarea {
   }
 }
 
+@media screen and ( max-width: 443px)
+{
 
+
+  .nav{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-color: #012B7D;
+    font-size: 11px;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0px 10px;
+}
+.nav ul span{
+  font-size: 7px; 
+    font-weight: lighter;
+}
+.nav .no{
+  font-size: 15px;
+  color: #00FFFF;
+}
+.nav .b{
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.ContainerImg {
+  width: 100%;
+    height: 470px;
+    position: relative;
+  }
+
+.ImgText {
+  position: absolute;
+  line-height: 2rem;
+  top: 10%;
+  color: #ffffff;
+  left: 20%;
+}
+.FirstPara {
+  font-size: 1rem;
+  padding: 0px 60px;
+}
+.Heading {
+  font-size: 2rem;
+  padding: 0px 30px;
+}
+.SecHeading {
+  font-size: 2rem;
+  margin-left: -18px;
+}
+
+
+
+.Form {
+  display: flex;
+  background-color: #012B7D;
+  flex-direction: column;
+  width: 55%;
+  row-gap: 6px;
+  padding: 15px 10px;
+  position: absolute;
+  top: 40%;
+  right: 22%;
+}
+
+.Form .hl{
+  color: #fff;
+  letter-spacing: 1px;
+  padding-bottom: 8px;
+  margin-left: 20px;
+  font-weight: light;
+  font-size: 10px;
+}
+
+.InputDiv {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+div input {
+  width: 100%;
+  height: 2rem;
+}
+textarea {
+  width: 100%;
+  height: 90px;
+}
+.SubmitButton {
+  padding: 5px ;
+  font-size: larger;
+  font-weight: bold;
+  background: #00FFFF;
+  color: #fff;
+  border: none;
+  margin-bottom: 5px;
+  
+}
+
+.menu{
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  color:  #022D7C;
+  padding-right: 170px;
+  margin-right: 50px;
+ 
+  align-items: center;
+  
+
+}
+.menu div{
+  width: 90%; 
+}
+.menu div img{
+  width: 250px;
+  height: 150px;
+  padding-left: 50px;
+  margin-top: 12px;
+  margin-bottom: 500px;
+
+  }
+  .menu .p1 .p2{
+    padding-left: 100px;
+    color: #00FFFF;
+  }
+  .menu div .p3{
+    width: 220px;
+  height: 200px;
+  margin-top: -495px;
+  margin-left: 50px;
+   margin-bottom: -77px;
+  color: #c70707;
+  }
+
+
+
+  
+}
+
+@media screen and ( max-width: 323px )
+{
+
+
+  .nav{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    background-color: #012B7D;
+    font-size: 11px;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0px 5px;
+}
+.nav ul span{
+  font-size: 4px; 
+    font-weight: lighter;
+}
+.nav .no{
+  font-size: 10px;
+  color: #00FFFF;
+}
+.nav .b{
+  margin-top: 7px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.ContainerImg {
+  width: 100%;
+    height: 490px;
+    position: relative;
+  }
+
+.ImgText {
+  position: absolute;
+  line-height: 2rem;
+  top: 10%;
+  color: #ffffff;
+  left: 20%;
+}
+.FirstPara {
+  font-size: 1rem;
+  padding: 0px 25px;
+}
+.Heading {
+  font-size: 2rem;
+  margin-left: -36px;
+}
+.SecHeading {
+  font-size: 2rem;
+  margin-left: 29px;
+}
+.SecHeading span{
+  margin-left: -13px;
+}
+
+
+
+.Form {
+  display: flex;
+  background-color: #012B7D;
+  flex-direction: column;
+  width: 69%;
+  row-gap: 6px;
+  padding: 15px -2px;
+  position: absolute;
+  top: 50%;
+  right: 16%;
+}
+
+.Form .hl{
+  color: #fff;
+  letter-spacing: 1px;
+  padding-bottom: 8px;
+  margin-left: 20px;
+  font-weight: light;
+  font-size: 10px;
+}
+
+.InputDiv {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+div input {
+  width: 100%;
+  height: 2rem;
+}
+textarea {
+  width: 100%;
+  height: 90px;
+}
+.SubmitButton {
+  padding: 5px ;
+  font-size: larger;
+  font-weight: bold;
+  background: #00FFFF;
+  color: #fff;
+  border: none;
+  margin-bottom: 5px;
+  
+}
+
+.menu{
+  width: 100%;
+  height: auto;
+  display:flex;
+  flex-direction: column;
+  color:  #022D7C;
+  padding-right: 170px;
+  margin-right: 100px;
+ 
+  align-items: center;
+  
+
+}
+.menu div{
+  width: 90%; 
+}
+.menu div img{
+  width: 210px;
+    height: 151px;
+    padding-left: 17px;
+    margin-top: 12px;
+    margin-bottom: 500px;
+
+  }
+  .menu .p1 .p2{
+    padding-left: 54px;
+    color: #00FFFF;
+  }
+  .menu div .p3{
+    width: 220px;
+  height: 200px;
+  margin-top: -495px;
+  margin-left: 22px;
+   margin-bottom: -77px;
+  color: #c70707;
+  }
+  .about{
+    width: 100%;
+    height: 250px;
+  
+    padding: 15px 30px;
+    font-size: 13px;
+  
+  
+   } 
+   .about h2{
+  padding: 0px;
+   }
+   .about button{
+  
+  
+    padding: 0px 100px;
+  
+    margin-top: 10px;
+   }
+
+   .working img{
+    width: 225px;
+    height: 155px;
+    margin-left: -52px;
+    margin-top: 19px;
+  
+  }
+  .working1 img{
+    width: 225px;
+    height: 155px;
+    margin-left: -52px;
+    margin-top: 19px;
+  
+  }
+  .header{
+    width: 100%;
+    height: auto;
+    padding: 5px ;
+    text-align: center;
+    background-color: #012B7D;
+    color: #fff;
+    font-size: 10px;
+    margin-top: 50px;
+  }
+  
+}
